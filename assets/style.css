@@ -6,9 +6,9 @@
 
 img {
     margin: 20px;
-    padding: 15px color green;
     display: block; 
-    border-radius: 10%;  
+    border-radius: 10%;
+    height: 200px;  
 }
 
 a {
@@ -24,14 +24,14 @@ a {
 }
 
 .personal-info h1 {
-    display: block;
+    display: inline;
     font-size: 48px;
     color: white
 }
 .personal-info-text{
     line-height: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-left: 400px;
+    margin-left: 20px; */
     
 }
 .contact-form {
@@ -55,13 +55,6 @@ a {
     margin-left: 25px;
 }
 
-/* .picture-aside { */
-    /* Shortcut method sets top and bottom padding to 20px and left and right to 40px */
-    padding: 20px 20px;
-    /* background-color: rgb(3, 3, 73);  */
-    color: white;
-    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  */
-}
 
 
 @media screen and (max-width: 768px) {

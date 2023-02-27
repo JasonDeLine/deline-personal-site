@@ -5,7 +5,7 @@
 }
 
 img {
-    margin: auto auto;
+    margin: 20px;
     padding: 15px color green;
     display: block;   
 }
@@ -29,6 +29,9 @@ a {
 }
 .personal-info-text{
     line-height: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 400px;
+    
 }
 .contact-form {
     padding: 20px;
@@ -53,10 +56,12 @@ a {
 
 .jason-pic {
     /* Shortcut method sets top and bottom padding to 20px and left and right to 40px */
-    display: block;
-    padding: 20px 40px;
-    border: 20px green;
+
+    padding: 20px 20px;
     background-color: rgb(3, 3, 73); 
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 
 @media screen and (max-width: 768px) {

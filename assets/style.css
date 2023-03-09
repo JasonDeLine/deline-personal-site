@@ -4,7 +4,7 @@
     margin: 0;
 }
 
-img {
+#jason-picture {
     margin: 20px;
     display: block; 
     border-radius: 10%;
@@ -25,13 +25,14 @@ a {
     color: #ffffff; 
 }
 
-#portfolio img{
+#portfolio-image{
     margin: 10px;
     padding: 10px;
     width: 200px;
     border: 4px solid black;  
-    box-shadow: grey;
+    box-shadow: 5px 5px 5px grey;
     display: inline;
+    border-radius: 10%;
 
 }
 .personal-info h1 {
@@ -39,8 +40,11 @@ a {
     font-size: 48px;
     color: white
 }
+
+/* is applying to the text in 
+lines 33-64 */
 .personal-info-text{
-    line-height: 40px;
+    line-height: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-left: 20px;
 }

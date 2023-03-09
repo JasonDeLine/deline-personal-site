@@ -25,6 +25,15 @@ a {
     color: #ffffff; 
 }
 
+#portfolio img{
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    border: 4px solid black;  
+    box-shadow: grey;
+    display: inline;
+
+}
 .personal-info h1 {
     display: inline;
     font-size: 48px;

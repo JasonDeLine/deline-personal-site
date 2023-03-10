@@ -74,6 +74,7 @@ lines 33-64 */
 .personal-info li {
     display: inline-block; */
     margin-left: 25px;
+    padding: 25px;
 }
 
 #backToTop {

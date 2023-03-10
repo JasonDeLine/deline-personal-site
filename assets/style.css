@@ -77,7 +77,7 @@ lines 33-64 */
 }
 
 #backToTop {
-    /* display: none; */
+   display: none;
     position: fixed;
     bottom: 20px;
     right: 30px;
@@ -91,6 +91,10 @@ lines 33-64 */
     padding: 15px;
     border-radius: 4px;
   }
+
+#backToTop:hover {
+    background-color: rgb(83, 82, 82);
+}
 
 @media screen and (max-width: 768px) {
     .personal-info nav {
